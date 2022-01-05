@@ -9,3 +9,5 @@
 - There are 5 such rounds, the player with the most game wins, wins the match/tournament.  
 - On the screen, there should be a button to start the game. Once the game finishes, it should update the current score. 
 - When a player wins 3 games, show the winner of the match.
+
+### [GAME](https://dohertyuag.github.io/2-player-shooting-game/)
