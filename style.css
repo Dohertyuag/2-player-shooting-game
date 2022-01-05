@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(-45deg, #ebb7a7, #db3072, #23a6d5, #23d5ab);
+    background-size: 1400% 1400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+
+#start-btn{
+    box-shadow: 2px 2px 5px 3px rgb(0, 0, 0);
+    color: rgb(127, 238, 169);
+    background-color: rgb(40, 32, 155);
+    font-size: 2.5vw;
+    padding: 10px 20px;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 700;
+
+}
+#start-btn:active{
+    transform: translateY(3px);
+}
+
+.container{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;    position: absolute;
+    
+    width: 40vw;
+    left: 25vw;
+    right: 25vw;
+    top: 20vh;
+    background-color: #202530;
+}
+
+#player1, #player2, #match-over, #start-btn{
+    padding: 15px;
+}
+#player1, #player2{
+    color: rgb(207, 176, 176);
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 700;
+    font-size: 1.6vw;
+}
+#match-over{
+    color: #23d5ab;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 700;
+    font-size: 1.8vw;
+}
